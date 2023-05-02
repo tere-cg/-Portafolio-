@@ -124,6 +124,13 @@ h1 {
   border-radius: 50%;
 }
 
+.experiencia i:hover {
+  color: #594545;
+  background-color: #bf567d;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
 .experiencia-titulo {
   font-size: 25px;
   font-weight: bold;
@@ -322,24 +329,24 @@ footer {
   justify-content: center;
   padding: 2px;
   margin: 10px;
-  border: 2px solid white;
+  border: 2px solid #d9c5ce;
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales i {
-  color: white;
+  color: #d9c5ce;
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: #d9c5ce;
+  border: 2px solid #734652;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: #734652;
 }
 
 .derechos-de-autor {
