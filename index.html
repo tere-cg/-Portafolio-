@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Tere Cabrera">
+    <meta name="description" content="Portafolio de desarrollo web de Teresa Cabrera">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="viewport" content="width= device-width, initial-scale= 1">
+    <!-- Titulo -->
+    <title>Tere Cabrera | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light seccion-clara">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="100" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/foto-tere.jpeg" alt="Foto de Tere Cabrera">
+        <h1>Hola, soy Tere</h1>
+        <!--Animación con JavaScript-->
+        <h2 class="mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior-lenguajesprogramacion.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce un poco sobre mí</h2>
+        <p class="seccion-texto"> Mis principales intereses son el desarrollo front-end, programación de aplicaciones móviles y la gestión de BD. Tengo conocimientos en HTML5, CSS3, JS, Python, C#, SQL y SWIFT. 
+          <br> Me considero una persona que sabe escuchar, trabajar en equipo, soy responsable, proactiva y comprometida en los proyectos que estoy involucrada.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Me gusta diseñar y desarrollar aplicaciones web y móviles que tengan un diseño apropiado a la empresa y sean intuitivas para facilitar el manejo de estas por parte del usuario.</p>
+            <div class="badges-contenedor">
+              <span class="badge rounded-pill text-bg-light">HTML</span>
+              <span class="badge rounded-pill text-bg-light">Python</span>
+              <span class="badge rounded-pill text-bg-light">JavaScript</span>
+              <span class="badge rounded-pill text-bg-light">SWIFT</span>
+            </div>
+          </div>
+
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-6">
+            <i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-database" viewBox="0 1 16 16">
+                <path d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313ZM13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 5.698ZM14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13V4Zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A4.92 4.92 0 0 0 13 8.698Zm0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525Z"/>
+              </svg>
+            </i>
+            <p class="experiencia-titulo">Gestión de BD</p>
+            <p>Me interesa la administración de BD, que consiste en almacenar y organizar grandes cantidades de datos, para que siempre estén disponibles y sean accesibles para las personas autorizadas.</p>
+            <div class="badges-contenedor">
+              <span class="badge rounded-pill text-bg-light">SQL Server Management</span>
+              <span class="badge rounded-pill text-bg-light">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-oscura d-flex flex-column">
+      <h2 class="seccion-titulo">Mis proyectos recientes</h2>
+      <h3 class="seccion-texto">3 de mis proyectos más recientes...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <a href="https://tere-cg.github.io/-Google-/" target="_blank" rel="noopener noreferrer">
+                <img src="imagenes/googleclon.png" alt="Google Clon">
+              </a>              
+              <div class="overlay">
+                <p>Google Clon</p>
+              </div>
+            </div>
+          </div>          
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <a href="https://tere-cg.github.io/-TheGoldenStore-/" target="_blank" rel="noopener noreferrer">
+                <img src="imagenes/thegoldenstore.png" alt="The Golden Store">  
+              </a>                            
+              <div class="overlay">
+                <p>The Golden Store</p>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <a href="https://tere-cg.github.io/-LaNonaLola-/" target="_blank" rel="noopener noreferrer">
+                <img src="imagenes/lanonalola.png" alt="La Nona Lola">
+              </a>                 
+              <div class="overlay">
+                <p>La Nona Lola</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Opiniones</h2>
+      <h3 class="seccion-texto seccion-clara">Acerca de mis proyectos más recientes</h3>
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/goldenlogo.png" alt="The Golden Store">
+              <p class="testimonio-texto">"Estamos muy satisfechas, esta página nos ha facilitado nuestro proceso de ventas online"</p>
+              <div class="testimonio-info">
+                <p class="cliente">The Golden Store</p>
+                <p class="cargo">Joyería</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/nonalolalogo.webp" alt="La Nona Lola">
+              <p class="testimonio-texto">"Una página muy funcional y llamativa, estamos muy agradecidos"</p>
+              <div class="testimonio-info">
+                <p class="cliente">La Nona Lola</p>
+                <p class="cargo">Pizzería</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/ceuLogo.jpg" alt="Cajas y Empaques Unión">
+              <p class="testimonio-texto">"Nuestras ventas han aumentado, ya que con un sitio Web pudimos llegar a más clientes y ampliar nuestro mercado"</p>
+              <div class="testimonio-info">
+                <p class="cliente">Cajas y Empaques Unión</p>
+                <p class="cargo">Fábrica de empaques de cartón</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¿Quieres preguntarme algo?
+            </div>
+            <div class="col-12 col-md-4 seccion-descripcion">
+              Ponte en contacto conmigo y cuéntame sobre el proyecto que tienes en mente.
+              <br>¡Juntos podemos volverlo realidad!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:mterec8@hotmail.com">
+                <button type="button" class="seccion-clara">  
+                  Enviar correo
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <p class="footer-texto text-center">Conoce más sobre mí a través de mis redes sociales:</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/Tere_cg8" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/tere-cg" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/teresa-cabrera-88a881274/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/tere__cg/?hl=es-la" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:terec8@hotmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Todos los derechos reservados | Creado por Teresa Cabrera &#169; (2023)</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
